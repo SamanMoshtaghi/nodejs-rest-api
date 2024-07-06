@@ -10,6 +10,12 @@ connectDB();
 
 // Middleware
 app.use(bodyParser.json());
+// Error handling middleware
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).json({ message: 'An unexpected error occurred' });
+});
+
 
 // Routes
 app.use('/users', require('./routes/userRoutes'));
