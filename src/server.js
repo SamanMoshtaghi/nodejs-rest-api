@@ -1,6 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const connectDB = require('./config/db');
+const dotenv = require('dotenv');
+const swaggerDocs = require('./swagger/swaggerConfig');
+
+dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -19,6 +23,14 @@ app.use((err, req, res, next) => {
 
 // Routes
 app.use('/users', require('./routes/userRoutes'));
+
+// Root route
+app.get('/', (req, res) => {
+    res.send('Welcome to the Node.js API. Please chack-out the /api-docs');
+});
+
+// Swagger
+swaggerDocs(app);
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
