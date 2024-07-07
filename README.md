@@ -57,13 +57,18 @@ Building a RESTful API with Node.js
     docker-compose up --build
    ```
 
-3. Access the application:
+2. Access the application:
 
-    Open your browser and go to http://localhost:4000. You should see "Welcome to the Node.js API".
+    Open your browser and go to http://localhost:4000.
+> [!NOTE]
+> You should see
+> `Welcome to Building a RESTful API with Node.js. Swagger documentation: /api-docs.`
         
-4. Access Swagger documentation:
+3. Access Swagger documentation:
 
-   Open your browser and go to http://localhost:4000/api-docs. You should see the Swagger UI with your API documentation.
+   Open your browser and go to http://localhost:4000/api-docs.
+> [!NOTE]
+> You should see the Swagger UI with your API documentation.
 
 
 ### Without Docker
@@ -72,7 +77,7 @@ Building a RESTful API with Node.js
 > [!IMPORTANT]
 > Ensure MongoDB is running on your local machine or in a Docker container.
 
-3. Create a .env file:
+2. Create a .env file:
 
     Create a .env file in the root directory and add the following:
    ```
@@ -80,19 +85,19 @@ Building a RESTful API with Node.js
     PORT=4000
    ```
 
-4. Start the application:
+3. Start the application:
    ```
     npm start
    ```
 
-5. Access the application:
+4. Access the application:
 
     Open your browser and go to http://localhost:4000.
 > [!NOTE]
 > You should see
 > `Welcome to Building a RESTful API with Node.js. Swagger documentation: /api-docs.`
 
-6. Access Swagger documentation:
+5. Access Swagger documentation:
 
     Open your browser and go to http://localhost:4000/api-docs.
 > [!NOTE]
