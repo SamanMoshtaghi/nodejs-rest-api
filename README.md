@@ -88,7 +88,7 @@ npm start
 
 Open your browser and go to http://localhost:4000.
 > [!NOTE]
-> You should see "Welcome to the Node.js API".
+> You should see "Welcome to Building a RESTful API with Node.js. Swagger documentation: /api-docs".
 
 6. Access Swagger documentation:
     Open your browser and go to http://localhost:4000/api-docs. You should see the Swagger UI with your API documentation.
