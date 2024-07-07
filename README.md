@@ -1,4 +1,5 @@
 # Node.js REST API
+Building a RESTful API with Node.js
 
 ## Project Structure
 
@@ -27,12 +28,12 @@
 ├── docker-compose.yml
 ├── package.json
 └── README.md
-
+```
 
 ## Prerequisites
-    - Node.js (version 20 or later)
-    - Docker
-    - Docker Compose
+- Node.js (version 20 or later)
+- Docker
+- Docker Compose
 
 ## Installation
     1. Clone the repository:
@@ -43,7 +44,8 @@
 
 ## Running the Application
 
-Using Docker
+### Using Docker
+
 1. Build and start the Docker containers:
     docker-compose up --build
 
@@ -54,7 +56,7 @@ Using Docker
     Open your browser and go to http://localhost:4000/api-docs. You should see the Swagger UI with your API documentation.
 
 
-Without Docker
+### Without Docker
 1. Start MongoDB:
     Ensure MongoDB is running on your local machine or in a Docker container.
 
@@ -75,7 +77,8 @@ Without Docker
     Open your browser and go to http://localhost:4000/api-docs. You should see the Swagger UI with your API documentation.
 
 ## Testing
-    To run tests:
+To run tests:
+    
     npm test
 
 ## Environment Variables
