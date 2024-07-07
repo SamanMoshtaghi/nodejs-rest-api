@@ -36,11 +36,19 @@ Building a RESTful API with Node.js
 - Docker Compose
 
 ## Installation
-    1. Clone the repository:
-        git clone https://github.com/SamanMoshtaghi/nodejs-rest-api        
-    2. Install dependencies:
-        npm install
 
+1. Clone the repository:
+
+git clone
+
+```
+    https://github.com/SamanMoshtaghi/nodejs-rest-api
+```
+   
+2. Install dependencies:
+```
+    npm install
+```
 
 ## Running the Application
 
