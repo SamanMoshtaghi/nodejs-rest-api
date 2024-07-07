@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors'); // Cross-Origin Resource Sharing
 const connectDB = require('./config/db');
 const dotenv = require('dotenv');
 const swaggerDocs = require('./swagger/swaggerConfig');
@@ -14,6 +15,8 @@ connectDB();
 
 // Middleware
 app.use(bodyParser.json());
+app.use(cors()); // enable CORS
+
 // Error handling middleware
 app.use((err, req, res, next) => {
     console.error(err.stack);
