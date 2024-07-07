@@ -106,5 +106,7 @@ To run tests:
     npm test
 
 ## Environment Variables
-    MONGO_URI: mongodb://localhost:27017/mydatabase
-    PORT: Port number for the application (default is 4000)
+Default Port number for the application is 4000.
+
+    MONGO_URI=mongodb://localhost:27017/mydatabase
+    PORT=4000
