@@ -39,10 +39,8 @@ Building a RESTful API with Node.js
 
 1. Clone the repository:
 
-git clone
-
 ```
-    https://github.com/SamanMoshtaghi/nodejs-rest-api
+git clone https://github.com/SamanMoshtaghi/nodejs-rest-api
 ```
    
 2. Install dependencies:
