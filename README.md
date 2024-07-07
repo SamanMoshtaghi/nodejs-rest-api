@@ -39,14 +39,14 @@ Building a RESTful API with Node.js
 
 1. Clone the repository:
 
-```
-git clone https://github.com/SamanMoshtaghi/nodejs-rest-api
-```
+   ```
+   git clone https://github.com/SamanMoshtaghi/nodejs-rest-api
+   ```
    
 2. Install dependencies:
-```
+   ```
     npm install
-```
+   ```
 
 ## Running the Application
 
@@ -75,15 +75,15 @@ git clone https://github.com/SamanMoshtaghi/nodejs-rest-api
 3. Create a .env file:
 
     Create a .env file in the root directory and add the following:
-```    
+   ```
     MONGO_URI=mongodb://localhost:27017/mydatabase
     PORT=4000
-```
+   ```
 
 4. Start the application:
-```
-npm start
-```
+   ```
+    npm start
+   ```
 
 5. Access the application:
 
@@ -100,8 +100,9 @@ Open your browser and go to http://localhost:4000/api-docs.
 
 ## Testing
 To run tests:
-    
+   ```
     npm test
+   ```
 
 ## Environment Variables
 Default Port number for the application is 4000.
