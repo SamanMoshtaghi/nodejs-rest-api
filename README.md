@@ -36,44 +36,61 @@ Building a RESTful API with Node.js
 - Docker Compose
 
 ## Installation
-    1. Clone the repository:
-        git clone https://github.com/SamanMoshtaghi/nodejs-rest-api        
-    2. Install dependencies:
-        npm install
 
+1. Clone the repository:
+
+git clone
+
+```
+    https://github.com/SamanMoshtaghi/nodejs-rest-api
+```
+   
+2. Install dependencies:
+```
+    npm install
+```
 
 ## Running the Application
 
 ### Using Docker
 
 1. Build and start the Docker containers:
+   ```
     docker-compose up --build
+   ```
 
-2. Access the application:
+3. Access the application:
     Open your browser and go to http://localhost:4000. You should see "Welcome to the Node.js API".
         
-3. Access Swagger documentation:
+4. Access Swagger documentation:
     Open your browser and go to http://localhost:4000/api-docs. You should see the Swagger UI with your API documentation.
 
 
 ### Without Docker
 1. Start MongoDB:
-    Ensure MongoDB is running on your local machine or in a Docker container.
+> [!IMPORTANT]
+> Ensure MongoDB is running on your local machine or in a Docker container.
 
 2. Create a .env file:
+
     Create a .env file in the root directory and add the following:
-    
+```    
     MONGO_URI=mongodb://localhost:27017/mydatabase
     PORT=4000
+```
 
-3. Start the application:
-    Copy code
-    npm start
+4. Start the application:
+```
+npm start
+```
 
-4. Access the application:
-    Open your browser and go to http://localhost:4000. You should see "Welcome to the Node.js API".
+5. Access the application:
 
-5. Access Swagger documentation:
+Open your browser and go to http://localhost:4000.
+> [!NOTE]
+> You should see "Welcome to the Node.js API".
+
+6. Access Swagger documentation:
     Open your browser and go to http://localhost:4000/api-docs. You should see the Swagger UI with your API documentation.
 
 ## Testing
