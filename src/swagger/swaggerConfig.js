@@ -8,7 +8,7 @@ const swaggerDefinition = {
     info: {
         title: 'Node.js API',
         version: '1.0.0',
-        description: 'A simple Node.js API',
+        description: 'A Simple RESTful API with Node.js',
     },
     servers: [
         {
