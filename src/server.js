@@ -26,7 +26,7 @@ app.use('/users', require('./routes/userRoutes'));
 
 // Root route
 app.get('/', (req, res) => {
-    res.send('Welcome to Building a RESTful API with Node.js. Swagger documentation: http://localhost:4000/api-docs.');
+    res.send('Welcome to Building a RESTful API with Node.js. Swagger documentation: /api-docs');
 });
 
 // Swagger
