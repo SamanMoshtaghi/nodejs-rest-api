@@ -87,14 +87,14 @@ Building a RESTful API with Node.js
 
 5. Access the application:
 
-Open your browser and go to http://localhost:4000.
+    Open your browser and go to http://localhost:4000.
 > [!NOTE]
 > You should see
 > `Welcome to Building a RESTful API with Node.js. Swagger documentation: /api-docs.`
 
 6. Access Swagger documentation:
 
-Open your browser and go to http://localhost:4000/api-docs.
+    Open your browser and go to http://localhost:4000/api-docs.
 > [!NOTE]
 > You should see the Swagger UI with your API documentation.
 
