@@ -6,6 +6,8 @@
 
 .
 ├── src
+│   ├── __tests__
+│   │   └── userRoutes.test.js
 │   ├── config
 │   │   └── db.js
 │   ├── controllers
