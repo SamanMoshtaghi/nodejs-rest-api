@@ -60,18 +60,21 @@ git clone
    ```
 
 3. Access the application:
+
     Open your browser and go to http://localhost:4000. You should see "Welcome to the Node.js API".
         
 4. Access Swagger documentation:
-    Open your browser and go to http://localhost:4000/api-docs. You should see the Swagger UI with your API documentation.
+
+   Open your browser and go to http://localhost:4000/api-docs. You should see the Swagger UI with your API documentation.
 
 
 ### Without Docker
 1. Start MongoDB:
+    
 > [!IMPORTANT]
 > Ensure MongoDB is running on your local machine or in a Docker container.
 
-2. Create a .env file:
+3. Create a .env file:
 
     Create a .env file in the root directory and add the following:
 ```    
@@ -88,10 +91,14 @@ npm start
 
 Open your browser and go to http://localhost:4000.
 > [!NOTE]
-> You should see "Welcome to Building a RESTful API with Node.js. Swagger documentation: /api-docs".
+> You should see
+> `Welcome to Building a RESTful API with Node.js. Swagger documentation: /api-docs.`
 
 6. Access Swagger documentation:
-    Open your browser and go to http://localhost:4000/api-docs. You should see the Swagger UI with your API documentation.
+
+Open your browser and go to http://localhost:4000/api-docs.
+> [!NOTE]
+> You should see the Swagger UI with your API documentation.
 
 ## Testing
 To run tests:
