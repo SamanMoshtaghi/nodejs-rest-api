@@ -79,5 +79,5 @@ Without Docker
     npm test
 
 ## Environment Variables
-    MONGO_URI: MongoDB connection string
+    MONGO_URI: mongodb://localhost:27017/mydatabase
     PORT: Port number for the application (default is 4000)
